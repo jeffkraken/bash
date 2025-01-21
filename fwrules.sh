@@ -3,7 +3,7 @@
 #The configs in this script are base/generic, do not use on a live machine.
 #If used, be sure to go back and update the rules to block unnecessary traffic.
 #Download to VM with the following commmand:
-#curl -sSL https://raw.githubusercontent.com/jeffkraken/bash/refs/heads/main/fwrules.sh
+#wget https://raw.githubusercontent.com/jeffkraken/bash/refs/heads/main/fwrules.sh
 #After downloading, edit the permissions so that your user can run the script... then run the script.
 
 ipadd=$(ip -4 a | grep 'dynamic' | cut -d ' ' -f6)
